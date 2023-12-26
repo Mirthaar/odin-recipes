@@ -6,6 +6,7 @@
 
 .footer {
     background-color: #000;
+    padding: 20px;
     text-align: center;
 }
 
@@ -64,4 +65,9 @@ h3 {
 .recipe-contents {
     display: inline-block;
     text-align: left;
+}
+
+li {
+    padding: 3px;
+    line-height: 23px;
 }
