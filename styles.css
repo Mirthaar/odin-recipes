@@ -34,13 +34,6 @@ body {
     height: 100%;
 }
 
-.heading img {
-    display: block;
-    margin: auto;
-    width: 100px;
-    height: auto;
-}
-
 a {
     color: #8ab2ea;
     text-decoration: none;
@@ -70,6 +63,14 @@ Practicing the flex-box properties to create a menu!
     display: flex;
 }
 
+.website-title {
+    margin-right: auto;
+}
+
+.logo {
+    margin-right: 5px;
+}
+
 .contact {
     margin-left: 20px;
 }
@@ -79,6 +80,13 @@ Practicing the flex-box properties to create a menu!
 }
 
 /* Index */
+
+.heading img {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: auto;
+}
 
 body.home-page {
     background-color: #8ab2ea;
