@@ -34,11 +34,47 @@ body {
     height: 100%;
 }
 
-.div.heading img {
+.heading img {
     display: block;
     margin: auto;
     width: 100px;
     height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+}
+
+/* Menu 
+
+Practicing the flex-box properties to create a menu! 
+
+*/
+
+.menu-container-1 {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #8ab2ea;
+    padding: 20px 0px;
+}
+
+.menu-1 {
+    justify-content: flex-end;
+    width: 900px;
+    display: flex;
+}
+
+.contact {
+    margin-left: 20px;
+}
+
+.menu-1 a:visited {
+    color: #8ab2ea;
 }
 
 /* Index */
